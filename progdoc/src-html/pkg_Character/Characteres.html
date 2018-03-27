@@ -1,0 +1,128 @@
+<HTML>
+<BODY BGCOLOR="white">
+<PRE>
+<FONT color="green">001</FONT>    package pkg_Character;<a name="line.1"></a>
+<FONT color="green">002</FONT>    import pkg_Room.Room;<a name="line.2"></a>
+<FONT color="green">003</FONT>    import pkg_Item.ItemList;<a name="line.3"></a>
+<FONT color="green">004</FONT>    /**<a name="line.4"></a>
+<FONT color="green">005</FONT>     * Décrivez votre classe abstraite Charactere ici.<a name="line.5"></a>
+<FONT color="green">006</FONT>     *<a name="line.6"></a>
+<FONT color="green">007</FONT>     * @author  (votre nom)<a name="line.7"></a>
+<FONT color="green">008</FONT>     * @version (un numéro de version ou une date)<a name="line.8"></a>
+<FONT color="green">009</FONT>     */<a name="line.9"></a>
+<FONT color="green">010</FONT>    public class Characteres<a name="line.10"></a>
+<FONT color="green">011</FONT>    {<a name="line.11"></a>
+<FONT color="green">012</FONT>        // variable d'instance - remplacez cet exemple par le vôtre<a name="line.12"></a>
+<FONT color="green">013</FONT>        private  String aNom;<a name="line.13"></a>
+<FONT color="green">014</FONT>        private  String aDescription;<a name="line.14"></a>
+<FONT color="green">015</FONT>        private  String aDialogues;<a name="line.15"></a>
+<FONT color="green">016</FONT>        private  static ItemList aItems;<a name="line.16"></a>
+<FONT color="green">017</FONT>        private  Room aCurrentRoom;<a name="line.17"></a>
+<FONT color="green">018</FONT>        public Characteres(final String pNom, final String pDesc, final String pDialogue, final Room pCurrentRoom)<a name="line.18"></a>
+<FONT color="green">019</FONT>        {<a name="line.19"></a>
+<FONT color="green">020</FONT>            this.aNom = pNom;<a name="line.20"></a>
+<FONT color="green">021</FONT>            this.aDescription = pDesc;<a name="line.21"></a>
+<FONT color="green">022</FONT>            this.aDialogues = pDialogue;<a name="line.22"></a>
+<FONT color="green">023</FONT>            this.aItems = new ItemList();<a name="line.23"></a>
+<FONT color="green">024</FONT>            this.aCurrentRoom = pCurrentRoom;<a name="line.24"></a>
+<FONT color="green">025</FONT>        }<a name="line.25"></a>
+<FONT color="green">026</FONT>        <a name="line.26"></a>
+<FONT color="green">027</FONT>        public  String getNom()<a name="line.27"></a>
+<FONT color="green">028</FONT>        {<a name="line.28"></a>
+<FONT color="green">029</FONT>            return aNom;<a name="line.29"></a>
+<FONT color="green">030</FONT>        }<a name="line.30"></a>
+<FONT color="green">031</FONT>        <a name="line.31"></a>
+<FONT color="green">032</FONT>        public String getChaDescription()<a name="line.32"></a>
+<FONT color="green">033</FONT>        {<a name="line.33"></a>
+<FONT color="green">034</FONT>            return this.aDescription;<a name="line.34"></a>
+<FONT color="green">035</FONT>        }<a name="line.35"></a>
+<FONT color="green">036</FONT>        <a name="line.36"></a>
+<FONT color="green">037</FONT>        public String getChaLongDecription()<a name="line.37"></a>
+<FONT color="green">038</FONT>        {<a name="line.38"></a>
+<FONT color="green">039</FONT>            String vDesc = (aNom + (" ") + aDescription);<a name="line.39"></a>
+<FONT color="green">040</FONT>            return vDesc;<a name="line.40"></a>
+<FONT color="green">041</FONT>        }<a name="line.41"></a>
+<FONT color="green">042</FONT>        <a name="line.42"></a>
+<FONT color="green">043</FONT>        public  String getDialogue()<a name="line.43"></a>
+<FONT color="green">044</FONT>        {<a name="line.44"></a>
+<FONT color="green">045</FONT>            return aDialogues;<a name="line.45"></a>
+<FONT color="green">046</FONT>        }<a name="line.46"></a>
+<FONT color="green">047</FONT>        <a name="line.47"></a>
+<FONT color="green">048</FONT>        public static ItemList getChaInventaire()<a name="line.48"></a>
+<FONT color="green">049</FONT>        {<a name="line.49"></a>
+<FONT color="green">050</FONT>            return aItems;<a name="line.50"></a>
+<FONT color="green">051</FONT>        }<a name="line.51"></a>
+<FONT color="green">052</FONT>        <a name="line.52"></a>
+<FONT color="green">053</FONT>        public  void removeChaInventaire(final String pI)<a name="line.53"></a>
+<FONT color="green">054</FONT>        {<a name="line.54"></a>
+<FONT color="green">055</FONT>            aItems.remove(pI);<a name="line.55"></a>
+<FONT color="green">056</FONT>        }<a name="line.56"></a>
+<FONT color="green">057</FONT>        <a name="line.57"></a>
+<FONT color="green">058</FONT>        public  Room getCurrentRoom()<a name="line.58"></a>
+<FONT color="green">059</FONT>        {<a name="line.59"></a>
+<FONT color="green">060</FONT>            return aCurrentRoom;<a name="line.60"></a>
+<FONT color="green">061</FONT>        }<a name="line.61"></a>
+<FONT color="green">062</FONT>    }<a name="line.62"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</PRE>
+</BODY>
+</HTML>

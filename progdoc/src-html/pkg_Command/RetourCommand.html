@@ -1,0 +1,110 @@
+<HTML>
+<BODY BGCOLOR="white">
+<PRE>
+<FONT color="green">001</FONT>    package pkg_Command;<a name="line.1"></a>
+<FONT color="green">002</FONT>    import pkg_Character.Player;<a name="line.2"></a>
+<FONT color="green">003</FONT>    import pkg_Mechanics.GameEngine;<a name="line.3"></a>
+<FONT color="green">004</FONT>    <a name="line.4"></a>
+<FONT color="green">005</FONT>    /**<a name="line.5"></a>
+<FONT color="green">006</FONT>     * Décrivez votre classe RetourCommand ici.<a name="line.6"></a>
+<FONT color="green">007</FONT>     *<a name="line.7"></a>
+<FONT color="green">008</FONT>     * @author (votre nom)<a name="line.8"></a>
+<FONT color="green">009</FONT>     * @version (un numéro de version ou une date)<a name="line.9"></a>
+<FONT color="green">010</FONT>     */<a name="line.10"></a>
+<FONT color="green">011</FONT>    public class RetourCommand extends Command<a name="line.11"></a>
+<FONT color="green">012</FONT>    {<a name="line.12"></a>
+<FONT color="green">013</FONT>        // variables d'instance - remplacez l'exemple qui suit par le vôtre<a name="line.13"></a>
+<FONT color="green">014</FONT>        private CommandWords commandWords;<a name="line.14"></a>
+<FONT color="green">015</FONT>    <a name="line.15"></a>
+<FONT color="green">016</FONT>        /**<a name="line.16"></a>
+<FONT color="green">017</FONT>         * Constructeur d'objets de classe RetourCommand<a name="line.17"></a>
+<FONT color="green">018</FONT>         */<a name="line.18"></a>
+<FONT color="green">019</FONT>        public RetourCommand()<a name="line.19"></a>
+<FONT color="green">020</FONT>        {<a name="line.20"></a>
+<FONT color="green">021</FONT>            // initialisation des variables d'instance<a name="line.21"></a>
+<FONT color="green">022</FONT>        }<a name="line.22"></a>
+<FONT color="green">023</FONT>    <a name="line.23"></a>
+<FONT color="green">024</FONT>        @Override<a name="line.24"></a>
+<FONT color="green">025</FONT>        public void execute(Player Joueur)<a name="line.25"></a>
+<FONT color="green">026</FONT>        {<a name="line.26"></a>
+<FONT color="green">027</FONT>            if (Joueur.getBackRoom().empty())<a name="line.27"></a>
+<FONT color="green">028</FONT>            {<a name="line.28"></a>
+<FONT color="green">029</FONT>                GameEngine.getGui().println("Vous etes deja a la piece de depart!");<a name="line.29"></a>
+<FONT color="green">030</FONT>                return;<a name="line.30"></a>
+<FONT color="green">031</FONT>            }<a name="line.31"></a>
+<FONT color="green">032</FONT>    <a name="line.32"></a>
+<FONT color="green">033</FONT>            else <a name="line.33"></a>
+<FONT color="green">034</FONT>            {<a name="line.34"></a>
+<FONT color="green">035</FONT>              if (Joueur.getCurrentRoom().getShortDescription().equals("dans le bar le Beffroi")) <a name="line.35"></a>
+<FONT color="green">036</FONT>              {<a name="line.36"></a>
+<FONT color="green">037</FONT>                  GameEngine.getGui().println("Vous êtes coincé. Il faut que vous trouviez la clef pour sortir.");<a name="line.37"></a>
+<FONT color="green">038</FONT>              }<a name="line.38"></a>
+<FONT color="green">039</FONT>              Joueur.backPlayer();<a name="line.39"></a>
+<FONT color="green">040</FONT>              GameEngine.getGui().println(Joueur.getCurrentRoom().getLongDescription());<a name="line.40"></a>
+<FONT color="green">041</FONT>              GameEngine.getGui().showImage(Joueur.getCurrentRoom().getImageName());<a name="line.41"></a>
+<FONT color="green">042</FONT>            }<a name="line.42"></a>
+<FONT color="green">043</FONT>        }<a name="line.43"></a>
+<FONT color="green">044</FONT>    }<a name="line.44"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</PRE>
+</BODY>
+</HTML>

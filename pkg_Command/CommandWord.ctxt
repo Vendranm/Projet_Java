@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=pCommandString\ pCommand
+comment0.target=CommandWord(java.lang.String,\ Command)
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=Command\ getCommand()
+numComments=3

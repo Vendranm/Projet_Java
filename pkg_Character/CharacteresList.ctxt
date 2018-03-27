@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CharacteresList()
+comment0.text=\n\ Constructeur\ d'objets\ de\ classe\ CharacterList\n
+comment1.params=pNom\ pCha
+comment1.target=void\ addCharacteres(java.lang.String,\ Characteres)
+comment2.params=
+comment2.target=boolean\ isEmpty()
+comment3.params=pN
+comment3.target=Characteres\ get(java.lang.String)
+comment4.params=
+comment4.target=java.util.HashMap\ getCharacteresList()
+comment5.params=pC
+comment5.target=boolean\ hasCharacteres(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ getCharactereString()
+numComments=7

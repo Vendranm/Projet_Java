@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=pDesc\ pImage\ pItem\ pCha
+comment0.target=TransporterRoom(java.lang.String,\ java.lang.String,\ pkg_Item.Item,\ pkg_Character.Characteres)
+comment0.text=\n\ Constructeur\ d'objets\ de\ classe\ TransporterRoom\n
+comment1.params=pARooms
+comment1.target=void\ setARooms(java.util.HashMap)
+comment2.params=pDir
+comment2.target=Room\ getExit(java.lang.String)
+numComments=3

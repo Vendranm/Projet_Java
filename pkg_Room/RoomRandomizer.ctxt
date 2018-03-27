@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=pRooms
+comment0.target=RoomRandomizer(java.util.HashMap)
+comment0.text=\n\ Constructeur\ d'objets\ de\ classe\ RoomRandomizer\n
+comment1.params=
+comment1.target=void\ fillArrayList()
+comment2.params=
+comment2.target=Room\ findRandomRoom()
+numComments=3

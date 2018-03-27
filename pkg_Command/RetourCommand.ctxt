@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=
+comment0.target=RetourCommand()
+comment0.text=\n\ Constructeur\ d'objets\ de\ classe\ RetourCommand\n
+comment1.params=Joueur
+comment1.target=void\ execute(pkg_Character.Player)
+numComments=2

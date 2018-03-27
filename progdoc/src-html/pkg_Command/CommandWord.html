@@ -1,0 +1,110 @@
+<HTML>
+<BODY BGCOLOR="white">
+<PRE>
+<FONT color="green">001</FONT>    package pkg_Command;<a name="line.1"></a>
+<FONT color="green">002</FONT>    <a name="line.2"></a>
+<FONT color="green">003</FONT>    <a name="line.3"></a>
+<FONT color="green">004</FONT>    /**<a name="line.4"></a>
+<FONT color="green">005</FONT>     * Enumeration CommandWord - écrire ici la description de l'énumération<a name="line.5"></a>
+<FONT color="green">006</FONT>     *<a name="line.6"></a>
+<FONT color="green">007</FONT>     * @author (votre nom)<a name="line.7"></a>
+<FONT color="green">008</FONT>     * @version (numéro de version ou date)<a name="line.8"></a>
+<FONT color="green">009</FONT>     */<a name="line.9"></a>
+<FONT color="green">010</FONT>    public enum CommandWord<a name="line.10"></a>
+<FONT color="green">011</FONT>    {<a name="line.11"></a>
+<FONT color="green">012</FONT>        ALLER("aller", new AllerCommand()),<a name="line.12"></a>
+<FONT color="green">013</FONT>        QUITTER("quitter", new QuitterCommand()), <a name="line.13"></a>
+<FONT color="green">014</FONT>        AIDE("aide", new AideCommand()), <a name="line.14"></a>
+<FONT color="green">015</FONT>        UNKNOWN("?", null), <a name="line.15"></a>
+<FONT color="green">016</FONT>        REGARDER("regarder", new RegarderCommand()), <a name="line.16"></a>
+<FONT color="green">017</FONT>        BOIRE("boire", new BoireCommand()), <a name="line.17"></a>
+<FONT color="green">018</FONT>        RETOUR("retour", new RetourCommand()), <a name="line.18"></a>
+<FONT color="green">019</FONT>        TEST("test", new TestCommand()), <a name="line.19"></a>
+<FONT color="green">020</FONT>        PRENDRE("prendre", new PrendreCommand()), <a name="line.20"></a>
+<FONT color="green">021</FONT>        POSER("poser", new PoserCommand()), <a name="line.21"></a>
+<FONT color="green">022</FONT>        CHARGER("charger", new ChargerCommand()),<a name="line.22"></a>
+<FONT color="green">023</FONT>        TELEPORTER("teleporter", new TeleporterCommand()),<a name="line.23"></a>
+<FONT color="green">024</FONT>        PARLER("parler", new ParlerCommand());<a name="line.24"></a>
+<FONT color="green">025</FONT>    <a name="line.25"></a>
+<FONT color="green">026</FONT>        private String aCommandString;<a name="line.26"></a>
+<FONT color="green">027</FONT>        private Command aCommand;<a name="line.27"></a>
+<FONT color="green">028</FONT>        <a name="line.28"></a>
+<FONT color="green">029</FONT>        CommandWord(final String pCommandString, final Command pCommand)<a name="line.29"></a>
+<FONT color="green">030</FONT>        {<a name="line.30"></a>
+<FONT color="green">031</FONT>            this.aCommandString = pCommandString;<a name="line.31"></a>
+<FONT color="green">032</FONT>            this.aCommand = pCommand;<a name="line.32"></a>
+<FONT color="green">033</FONT>        }<a name="line.33"></a>
+<FONT color="green">034</FONT>        <a name="line.34"></a>
+<FONT color="green">035</FONT>        public String toString()<a name="line.35"></a>
+<FONT color="green">036</FONT>        {<a name="line.36"></a>
+<FONT color="green">037</FONT>            return aCommandString;<a name="line.37"></a>
+<FONT color="green">038</FONT>        }<a name="line.38"></a>
+<FONT color="green">039</FONT>        <a name="line.39"></a>
+<FONT color="green">040</FONT>        public Command getCommand()<a name="line.40"></a>
+<FONT color="green">041</FONT>        {<a name="line.41"></a>
+<FONT color="green">042</FONT>            return aCommand;<a name="line.42"></a>
+<FONT color="green">043</FONT>        }<a name="line.43"></a>
+<FONT color="green">044</FONT>    }<a name="line.44"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</PRE>
+</BODY>
+</HTML>

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=pNom\ pDesc\ pDialogue\ pCurrentRoom\ pItem
+comment0.target=Characteres(java.lang.String,\ java.lang.String,\ java.lang.String,\ pkg_Room.Room,\ pkg_Item.Item)
+comment1.params=
+comment1.target=java.lang.String\ getNom()
+comment2.params=
+comment2.target=java.lang.String\ getChaDescription()
+comment3.params=
+comment3.target=java.lang.String\ getChaLongDecription()
+comment4.params=
+comment4.target=java.lang.String\ getDialogue()
+comment5.params=
+comment5.target=pkg_Item.Item\ getChaItem()
+comment6.params=
+comment6.target=pkg_Room.Room\ getCurrentRoom()
+comment7.params=pI
+comment7.target=void\ setChaItem(pkg_Item.Item)
+numComments=8

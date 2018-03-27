@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=pName\ pDescription\ pWeight\ pCharged
+comment0.target=Beamer(java.lang.String,\ java.lang.String,\ int,\ boolean)
+comment1.params=
+comment1.target=pkg_Room.Room\ getSavedRoom()
+comment2.params=pSavedRoom
+comment2.target=void\ setSavedRoom(pkg_Room.Room)
+comment3.params=
+comment3.target=boolean\ isCharged()
+comment4.params=pCharged
+comment4.target=void\ setCharged(boolean)
+numComments=5

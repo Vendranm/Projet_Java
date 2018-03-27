@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=QuitterCommand()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ QuitCommand\n
+comment1.params=Joueur
+comment1.target=void\ execute(pkg_Character.Player)
+comment1.text=\n\ "Quit"\ was\ entered.\ Check\ the\ argument\ to\ see\ whether\n\ we\ really\ quit\ the\ game.\ Return\ true,\ if\ we\ should\ quit,\ false\n\ otherwise.\n
+numComments=2

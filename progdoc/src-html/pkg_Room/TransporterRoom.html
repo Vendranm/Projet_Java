@@ -1,0 +1,101 @@
+<HTML>
+<BODY BGCOLOR="white">
+<PRE>
+<FONT color="green">001</FONT>    package pkg_Room;<a name="line.1"></a>
+<FONT color="green">002</FONT>    import pkg_Item.Item;<a name="line.2"></a>
+<FONT color="green">003</FONT>    import pkg_Character.Characteres;<a name="line.3"></a>
+<FONT color="green">004</FONT>    import java.util.HashMap;<a name="line.4"></a>
+<FONT color="green">005</FONT>    /**<a name="line.5"></a>
+<FONT color="green">006</FONT>     * Décrivez votre classe TransporterRoom ici.<a name="line.6"></a>
+<FONT color="green">007</FONT>     *<a name="line.7"></a>
+<FONT color="green">008</FONT>     * @author (votre nom)<a name="line.8"></a>
+<FONT color="green">009</FONT>     * @version (un numéro de version ou une date)<a name="line.9"></a>
+<FONT color="green">010</FONT>     */<a name="line.10"></a>
+<FONT color="green">011</FONT>    public class TransporterRoom extends Room<a name="line.11"></a>
+<FONT color="green">012</FONT>    {<a name="line.12"></a>
+<FONT color="green">013</FONT>        // variables d'instance - remplacez l'exemple qui suit par le vôtre<a name="line.13"></a>
+<FONT color="green">014</FONT>        private static  RoomRandomizer aRoomRand;<a name="line.14"></a>
+<FONT color="green">015</FONT>        <a name="line.15"></a>
+<FONT color="green">016</FONT>        /**<a name="line.16"></a>
+<FONT color="green">017</FONT>         * Constructeur d'objets de classe TransporterRoom<a name="line.17"></a>
+<FONT color="green">018</FONT>         */<a name="line.18"></a>
+<FONT color="green">019</FONT>        public TransporterRoom(final String pDesc,final String pImage,final Item pItem, final Characteres pCha)<a name="line.19"></a>
+<FONT color="green">020</FONT>        {<a name="line.20"></a>
+<FONT color="green">021</FONT>            // initialisation des variables d'instance<a name="line.21"></a>
+<FONT color="green">022</FONT>            super(pDesc, pImage, pItem, pCha);<a name="line.22"></a>
+<FONT color="green">023</FONT>        }<a name="line.23"></a>
+<FONT color="green">024</FONT>        <a name="line.24"></a>
+<FONT color="green">025</FONT>        public void setARooms(final HashMap&lt;String, Room&gt; pARooms)<a name="line.25"></a>
+<FONT color="green">026</FONT>        {<a name="line.26"></a>
+<FONT color="green">027</FONT>            this.aRoomRand = new RoomRandomizer(pARooms);<a name="line.27"></a>
+<FONT color="green">028</FONT>        }<a name="line.28"></a>
+<FONT color="green">029</FONT>        <a name="line.29"></a>
+<FONT color="green">030</FONT>        @Override<a name="line.30"></a>
+<FONT color="green">031</FONT>        public Room getExit(final String pDir)<a name="line.31"></a>
+<FONT color="green">032</FONT>        {<a name="line.32"></a>
+<FONT color="green">033</FONT>            return this.aRoomRand.findRandomRoom();<a name="line.33"></a>
+<FONT color="green">034</FONT>        }<a name="line.34"></a>
+<FONT color="green">035</FONT>    }<a name="line.35"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</PRE>
+</BODY>
+</HTML>

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=pName\ pDesc\ pWeight\ pEdible
+comment0.target=Item(java.lang.String,\ java.lang.String,\ int,\ boolean)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Items\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment2.params=
+comment2.target=java.lang.String\ getItemDescription()
+comment2.text=\n\ Return\ the\ decription\n
+comment3.params=
+comment3.target=java.lang.String\ getItemLongDescription()
+comment4.params=pDescription
+comment4.target=void\ setItemDescription(java.lang.String)
+comment5.params=
+comment5.target=int\ getWeight()
+comment6.params=pWeight
+comment6.target=void\ setItemWeight(int)
+comment7.params=
+comment7.target=boolean\ isEdible()
+comment8.params=pEdible
+comment8.target=void\ setEdible(boolean)
+numComments=9
